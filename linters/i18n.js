@@ -15,7 +15,8 @@ const PLURALIZATION_KEYS = ["zero", "one", "two", "other"];
 // https://github.com/htmllint/htmllint/wiki/Options
 const HTML_LINT_RULES = {
   "line-end-style": false,
-  "id-class-style": false
+  "id-class-style": false,
+  "attr-name-style": "dash"
 };
 
 module.exports = class I18nLinter {
